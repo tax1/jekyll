@@ -4,11 +4,6 @@ This is the basic Jekyll starter site, with Netlify CMS integrated.
 
 ## Getting Started
 
-```bash
-netlify-git-api users add
-netlify-git-api serve
-```
-
 Then open a new terminal, `cd` into your new repo and run:
 
 ```bash
@@ -39,9 +34,21 @@ the **Enable GitHub** box.
 Now anybody with write access to your GitHub repository can log in at yoursite.netlify.com/admin
 and use the CMS.
 
+You need to Modify /admin/config.yml
+
+Change Path to your Github repository && Change with you Netlify Webtite url :
+
+  repo: tax1/jekyll # Change Path to your Github repository
+  netlify.configure({'site_id': YourSite.netlify.com}); # Change with you name site on Netlify
+
 **Enjoy!**
 
 ## Bug reports, feature requests, etc
+
+Help to configure :
+
+https://www.netlify.com/docs/authentication-providers/#using-an-authentication-provider
+https://www.netlify.com/blog/2015/10/28/a-step-by-step-guide-jekyll-3.0-on-netlify/
 
 We love feedback, contributions, better documentation, tutorials, general comments,
 random hatemail, rants, love, crazy ideas, etc, etc!
