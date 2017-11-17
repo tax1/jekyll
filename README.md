@@ -59,6 +59,7 @@ Change Path to your Github repository && Change with you Netlify Webtite url :
 Help to configure :
 
 https://www.netlify.com/docs/authentication-providers/#using-an-authentication-provider
+
 https://www.netlify.com/blog/2015/10/28/a-step-by-step-guide-jekyll-3.0-on-netlify/
 
 We love feedback, contributions, better documentation, tutorials, general comments,
