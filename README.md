@@ -7,7 +7,10 @@ This is the basic Jekyll starter site, with Netlify CMS integrated.
 Then open a new terminal, `cd` into your new repo and run:
 
 ```bash
+git clone https://github.com/tax1/jekyll/
+cd jekyll
 bundle install
+bundle exec jekyll build
 bundle exec jekyll server --watch
 ```
 
@@ -36,10 +39,18 @@ and use the CMS.
 
 You need to Modify /admin/config.yml
 
+  
+  ```bash
+cd jekyll/admin/
+leafpad config.yml
+
+```
+
 Change Path to your Github repository && Change with you Netlify Webtite url :
 
   repo: tax1/jekyll # Change Path to your Github repository
   netlify.configure({'site_id': YourSite.netlify.com}); # Change with you name site on Netlify
+
 
 **Enjoy!**
 
