@@ -37,7 +37,7 @@ the **Enable GitHub** box.
 Now anybody with write access to your GitHub repository can log in at yoursite.netlify.com/admin
 and use the CMS.
 
-You need to Modify /admin/config.yml
+## You need to Modify /admin/config.yml
 
   
   ```bash
@@ -51,7 +51,7 @@ Change Path to your Github repository && Change with you Netlify Webtite url :
   repo: tax1/jekyll # Change Path to your Github repository
   netlify.configure({'site_id': YourSite.netlify.com}); # Change with you name site on Netlify
 
-Report Security Vulnerability from Github for yajl-ruby
+## Report Security Vulnerability from Github for yajl-ruby
 
 We found a potential security vulnerability in one of your dependencies.
 The yajl-ruby dependency defined in Gemfile.lock has a known low severity security vulnerability in version range < 1.3.1 and should be updated.
