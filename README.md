@@ -51,6 +51,20 @@ Change Path to your Github repository && Change with you Netlify Webtite url :
   repo: tax1/jekyll # Change Path to your Github repository
   netlify.configure({'site_id': YourSite.netlify.com}); # Change with you name site on Netlify
 
+Report Security Vulnerability from Github for yajl-ruby
+
+We found a potential security vulnerability in one of your dependencies.
+The yajl-ruby dependency defined in Gemfile.lock has a known low severity security vulnerability in version range < 1.3.1 and should be updated.
+
+Only users who have been granted access to vulnerability alerts for this repository can see this message.
+Learn more about vulnerability alerts
+These dependencies have been defined in jekyll‘s manifest files, such as Gemfile and Gemfile.lock
+
+
+ 
+  ```bash
+gem uninstall yajl-ruby
+```
 
 **Enjoy!**
 
